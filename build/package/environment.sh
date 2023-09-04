@@ -3,7 +3,7 @@
 # environment
 export ProjectName="go_http_server"
 Author="Yang Hui <sn0wdr1am@qq.com>"
-LICENSE="Copyright (c) 2020-present SnowdreamTech Inc."
+LICENSE="Copyright (c) 2023-present SnowdreamTech Inc."
 CmdPath="snowdream.tech/http-server/pkg/env"
 BuildTime=$(date +'%Y.%m.%d.%H%M%S%z')
 CommitHash=N/A
