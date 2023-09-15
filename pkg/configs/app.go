@@ -35,7 +35,7 @@ var defaultAppConfig = AppConfig{
 	Gzip:                true,
 	User:                "admin:admin",
 	LogDir:              ".",
-	RateLimiter:         "5-S",
+	RateLimiter:         "",
 	ReadTimeout:         10,
 	WriteTimeout:        10,
 	WwwRoot:             "",
