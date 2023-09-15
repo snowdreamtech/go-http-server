@@ -15,7 +15,8 @@
         "Go: Install/Update golint",
         "Go: Install/Update impl",
         "Go: Install/Update gopls",
-        "Go: Install/Update goimports"
+        "Go: Install/Update goimports",
+        "Go: Install/Update husky"
       ]
     },
     {
@@ -71,6 +72,13 @@
       "label": "Go: Install/Update goimports",
       "command": "go",
       "args": ["install", "golang.org/x/tools/cmd/goimports@latest"],
+      "group": "build",
+      "type": "shell"
+    },
+    {
+      "label": "Go: Install/Update husky",
+      "command": "go",
+      "args": ["install", "github.com/automation-co/husky@latest"],
       "group": "build",
       "type": "shell"
     },

@@ -2,6 +2,10 @@
     "recommendations": [
         "golang.go",
         "ms-vscode.makefile-tools",
-        "wmaurer.change-case"
+        "axetroy.vscode-whatchanged",
+        "mhutchie.git-graph",
+        "wmaurer.change-case",
+        "ms-ceintl.vscode-language-pack-zh-hans",
+        "ms-ceintl.vscode-language-pack-zh-hant",
     ]
 }
