@@ -16,7 +16,8 @@
         "Go: Install/Update impl",
         "Go: Install/Update gopls",
         "Go: Install/Update goimports",
-        "Go: Install/Update husky"
+        "Go: Install/Update husky",
+        "Go: Install/Update commitlint"
       ]
     },
     {
@@ -79,6 +80,13 @@
       "label": "Go: Install/Update husky",
       "command": "go",
       "args": ["install", "github.com/automation-co/husky@latest"],
+      "group": "build",
+      "type": "shell"
+    },
+        {
+      "label": "Go: Install/Update commitlint",
+      "command": "go",
+      "args": ["install", "github.com/conventionalcommit/commitlint@latest"],
       "group": "build",
       "type": "shell"
     },
